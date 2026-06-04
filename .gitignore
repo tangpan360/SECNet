@@ -1,0 +1,74 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Experiment outputs and model artifacts
+checkpoints/
+results/
+test_results/
+runs/
+wandb/
+logs/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Local result logs
+result_long_term_forecast.txt
+significance_test_results.txt
+
+# Datasets are usually downloaded separately.
+# dataset/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.abs
+*.dvi
+
+# Generated PDFs can be large; commit only final PDFs intentionally.
+*.pdf
+
+# Temporary archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
